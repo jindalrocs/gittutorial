@@ -37,3 +37,4 @@ additem[0].style.color = "green";
 
 
 console.log(items[1]);
+console.log(items[1]);
