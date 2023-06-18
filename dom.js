@@ -21,6 +21,14 @@ header.style.borderBottom = 'solid 3px #000';
 var items = document.getElementsByClassName('list-group-item');
 console.log(items);
 items[1].textContent ='hello 2';
+
+let i=0;
+for( i=0; i<4;i++)
+{
+    items[i].style.fontWeight = 'bold';
+}
+items[2].style.backgroundColor ='green';
+
 //items[4]= 'Bold';
 var additem = document.getElementsByClassName('title');
 console.log(additem);
