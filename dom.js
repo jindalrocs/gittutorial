@@ -38,3 +38,10 @@ additem[0].style.color = "green";
 
 console.log(items[1]);
 console.log(items[1]);
+
+
+var li = document.getElementsByTagName('li');
+li[0].style.color = "green";
+var list = document.getElementsByClassName('list-item');
+list[0].style.color = "green";
+console.log(li);
