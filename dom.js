@@ -40,8 +40,42 @@ console.log(items[1]);
 console.log(items[1]);
 
 
-var li = document.getElementsByTagName('li');
-li[0].style.color = "green";
-var list = document.getElementsByClassName('list-item');
-list[0].style.color = "green";
+//var li = document.getElementsByTagName('li');
+//li[0].style.color = "green";
+//var list = document.getElementsByClassName('list-item');
+//list[0].style.color = "green";
+
+
+
+//query selctor assingment 
+//var itm = document.querySelector('.list-group-item');
+//itm.style.backgroundColor = 'red';
+
+//var itm2 = document.querySelector('.list-group-item:nth-child(2)');
+//itm2.style.backgroundColor = 'green';
+
+//var itm3 = document.querySelector('.list-group-item:nth-child(3)');
+//itm3.style.color = 'white';
+//itm3.style.backgroundColor = 'white';
+
+
+
+//query selectorall
+
+var titles  = document.querySelectorAll('.title');
+
+var odd = document.querySelectorAll('li:nth-child(odd)');
+
+
+
+for(var j =0; j<odd.length;j++)
+{
+  odd[j].style.backgroundColor ="green";
+}
+
+var itm2= document.querySelectorAll('li:nth-child(2)');
+itm2[0].style.backgroundColor = 'red';
+
+
+
 console.log(li);
